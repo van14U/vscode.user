@@ -1,0 +1,195 @@
+{
+    "keyboard.dispatch": "keyCode",
+    "editor.fontFamily": "'FiraCode Nerd Font', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "relative",
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Nord Wave",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.cursorStyle": "block",
+    "vim.leader": "space",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "Y"
+            ],
+            "after": [
+                "y",
+                "g",
+                "$"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "after": [
+                "\"",
+                "+",
+                "P"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "d"
+            ],
+            "commands": [
+                "editor.action.revealDefinition"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "i"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "r",
+                "r"
+            ],
+            "commands": [
+                "editor.action.goToReferences"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "h"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "n"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "v",
+                "r",
+                "n"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "y"
+            ],
+            "after": [
+                "\"",
+                "+",
+                "y"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "Y"
+            ],
+            "after": [
+                "g",
+                "g",
+                "\"",
+                "+",
+                "y",
+                "G"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d",
+            ]
+        },
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "m",
+                "z",
+                "J",
+                "`",
+                "z"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d",
+                "P"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "y"
+            ],
+            "after": [
+                "\"",
+                "+",
+                "y"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d",
+            ]
+        }
+    ],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#A3BE8C",
+        "statusBar.noFolderBackground": "#A3BE8C",
+        "statusBar.debuggingBackground": "#A3BE8C"
+    },
+    "vim.cursorStylePerMode.insert": "block",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block",
+    "vim.cursorStylePerMode.visual": "block",
+    "vim.cursorStylePerMode.visualblock": "block",
+    "vim.cursorStylePerMode.visualline": "block",
+    "workbench.editor.openPositioning": "last"
+}
