@@ -181,9 +181,9 @@
         }
     ],
     "workbench.colorCustomizations": {
-        "statusBar.background": "#A3BE8C",
-        "statusBar.noFolderBackground": "#A3BE8C",
-        "statusBar.debuggingBackground": "#A3BE8C"
+        "statusBar.background": "#88C0D0",
+        "statusBar.noFolderBackground": "#88C0D0",
+        "statusBar.debuggingBackground": "#88C0D0"
     },
     "vim.cursorStylePerMode.insert": "block",
     "vim.cursorStylePerMode.normal": "block",
