@@ -1,7 +1,7 @@
 {
     "keyboard.dispatch": "keyCode",
-    "editor.fontFamily": "'FiraCode Nerd Font', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontLigatures": true,
+    "editor.fontFamily": "'UbuntuMono Nerd Font', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": false,
     "editor.lineNumbers": "relative",
     "editor.renderWhitespace": "all",
     "editor.tabSize": 2,
@@ -191,5 +191,8 @@
     "vim.cursorStylePerMode.visual": "block",
     "vim.cursorStylePerMode.visualblock": "block",
     "vim.cursorStylePerMode.visualline": "block",
-    "workbench.editor.openPositioning": "last"
+    "workbench.editor.openPositioning": "last",
+    "clangd.arguments": [
+        "--inlay-hints=true"
+    ]
 }
